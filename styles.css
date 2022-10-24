@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar .container {
+    display: flex;
+    justify-content: flex-start;
+    background: black;
+    height: 70px;
+}
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+    list-style: none;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold
+}
+.nav a:hover {
+    text-decoration: underline white 3px solid;
+}
+.navbutton {
+    height: 30px;
+    width: 100px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: 900px;
+}
+.firstsec {
+    background-image: url(https://img.freepik.com/free-photo/portrait-young-sportive-girl-training-with-dumbbells-isolated-blue-background-neon_155003-45614.jpg?w=826&t=st=1661097668~exp=1661098268~hmac=731ac9e55f745e8513fa284a1994c5c29942ec660f6e606202d6dc51878b6fb6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    line-height: 1.8;
+}
+.firstsec h1 {
+    font-size: 40px;
+}
+.firstsec p {
+    font-size: 25px;
+    font-weight: 400;
+}
+.secondsec {
+    width: 100%;
+    height: 100px;
+    padding: 70px;
+    text-align: center;
+    line-height: 1.8;
+    
+}
+.secondsec h1 {
+    font-size: 40px;
+}
+.secondsec p {
+    font-size: 30px;
+    font-weight: 400;
+}
+.thirdsec {
+    background: gainsboro;
+    height: 700px;
+    width: 100%;
+    line-height: 1.3;
+    margin-top: 100px;
+}
+.thirdsec .container {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.thirdsec .container .box img {
+    width: 600px;
+    height: 300px;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+.thirdsec h1 {
+    padding-left: 250px;
+    font-size: 25px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+.thirdsec p {
+    padding-left: 100px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 200;
+}
+.thirdsec button {
+    width: 120px;
+    height: 40px;
+    border-radius: 10%;
+    padding: 10px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.fourthsec {
+    height: 300px;
+    width: 100%;
+    line-height: 1.8;
+}
+.fourthsec h1 {
+      font-size: 30px;
+      font-weight: bold;
+      padding-top: 40px;
+      padding-left: 500px;
+}
+.fourthsec p {
+    padding-left: 0px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+.fourthsec button {
+    width: 120px;
+    height: 40px;
+    border-radius: 10%;
+    padding: 10px;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+footer {
+    width: 100%;
+    height: 350px;
+    background: darkslateblue;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+footer span {
+    font-size: 20px;
+    opacity: 0.7;
+}
+.class {
+    padding-left: 30px;
+}
+footer i {
+    font-size: 30px;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+     text-decoration: underline 2px white;
+}
+button {
+    font-weight: bold;
+    border: 2px black solid;
+}
+button:hover {
+    background: black;
+    color: white;
+}
+@media(max-width: 480px) {
+    .navbutton {
+        margin-left: 10px;
+    }
+    .navbar {
+        font-size: small;
+        padding-left: 5px;
+    }
+
+}
